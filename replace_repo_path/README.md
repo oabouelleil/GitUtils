@@ -1,9 +1,9 @@
 # Replace Repo Path Git Filter
 The [Filter Script](filter.sh) can be used to create a git filter that replaces all occurrences of the repository path with a standard string. And then replaces this string with the path in the working tree. It is made to work with both forward slashes and backslashes.
 
-Forward Slash Paths are replaced with the string `__REPO_PATH__`.
+Forward Slash Paths are replaced with the string `__‎REPO_PATH‎__`.
 
-Backslash Paths are replaced with the string `__REPO_PATH_BACKSLASH__`.
+Backslash Paths are replaced with the string `__‎REPO_PATH_BACKSLASH‎__`.
 
 ## Usage
 **Note: Since git filters are configured in your git config file, there is no way to have them automatically applied when pulled from a remote repository. A way around this is:**
