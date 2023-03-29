@@ -1,0 +1,3 @@
+[filter "replace_repo_path"]
+    clean = replace_repo_path/filter_replace_repo_path.sh clean
+    smudge = replace_repo_path/filter_replace_repo_path.sh smudge
