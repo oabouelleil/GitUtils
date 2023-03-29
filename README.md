@@ -5,7 +5,7 @@ GitUtils is a collection of useful Git utilities and scripts designed to enhance
 
 The `replace_repo_path` filter is a utility that replaces occurrences of the repository path with a standard string in your files. When files are checked out, the standard string is replaced with the actual repository path. This filter works with both forward slashes and backslashes.
 
-To learn more about the `replace_repo_path` filter and how to set it up, check out the [Replace Repo Path README](replace_repo_path/README.md).
+To learn more about the `replace_repo_path` filter and how to set it up, check out the [Replace Repo Path README](filters/replace_repo_path/README.md).
 
 ## Usage
 

@@ -1,1 +1,1 @@
-replace_repo_path/**/*.md filter=replace_repo_path
+filters/replace_repo_path/*.md filter=replace_repo_path
