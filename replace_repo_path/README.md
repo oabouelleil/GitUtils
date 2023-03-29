@@ -19,7 +19,7 @@ Backslash Paths are replaced with the string `__‎REPO_PATH_BACKSLASH‎__`.
 
     # This will force git to recheck and "reapply" gitattributes changes.
     git rm --cached -r .
-    git add -A
+    git reset --hard
     ```
 
 
