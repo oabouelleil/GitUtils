@@ -18,8 +18,7 @@ case $1 in
         ;;
     smudge)
         sed -e "s|$STANDARD_STRING|$REPO_PATH_ESCAPED|g" \
-            -e "s|$STANDARD_STRING_BACKSLASH|$REPO_PATH_BACKSLASH|g" \
-            -e 's/\\/\//g'
+            -e "s|$STANDARD_STRING_BACKSLASH|$REPO_PATH_BACKSLASH|g"
         ;;
     *)
         echo "Invalid argument. Use 'clean' or 'smudge'."
