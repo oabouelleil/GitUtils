@@ -1,7 +1,9 @@
 # GitUtils
 GitUtils is a collection of useful Git utilities and scripts designed to enhance and streamline your Git experience. The repository includes a variety of tools, starting with the path replacement filter described below. As more utilities are added, this README will be updated accordingly.
 
-## Replace Repo Path Git Filter
+## Filters
+
+### Replace Repo Path Git Filter
 
 The `replace_repo_path` filter is a utility that replaces occurrences of the repository path with a standard string in your files. When files are checked out, the standard string is replaced with the actual repository path. This filter works with both forward slashes and backslashes.
 
